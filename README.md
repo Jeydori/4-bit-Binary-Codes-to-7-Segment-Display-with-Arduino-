@@ -45,31 +45,31 @@ Majority of this project will revolve in a simulation tool, then next steps will
       <img width="194" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/c36ab1e9-bd58-482b-a211-bccc10fc6d42">
 
   2. Declare arrays and variables on pins:
-'''
-       //7-segment display pins
-        #define output7 8 //g
-        #define output6 7 //f
-        #define output5 6 //e
-        #define output4 5 //d
-        #define output3 4 //c
-        #define output2 3 //b
-        #define output1 2 //a
 
-       //4-bit binary pins
-        #define input4 13 //1000
-        #define input3 12 //0100
-        #define input2 11 //0010
-        #define input1 10 //0001
-
-       //binary code switch pins / mode pins
-        #define switch4 A3 //display group members (optional)
-        #define switch3 A2 //2421
-        #define switch2 A1 //5211
-        #define switch1 A0 //84-2-1
-
-       //array
-       int gl_arrayRawInput[4];
-    }
+               //7-segment display pins
+                #define output7 8 //g
+                #define output6 7 //f
+                #define output5 6 //e
+                #define output4 5 //d
+                #define output3 4 //c
+                #define output2 3 //b
+                #define output1 2 //a
+        
+               //4-bit binary pins
+                #define input4 13 //1000
+                #define input3 12 //0100
+                #define input2 11 //0010
+                #define input1 10 //0001
+        
+               //binary code switch pins / mode pins
+                #define switch4 A3 //display group members (optional)
+                #define switch3 A2 //2421
+                #define switch2 A1 //5211
+                #define switch1 A0 //84-2-1
+        
+               //array
+               int gl_arrayRawInput[4];
+            }
 
      
 3. Set variables of pins as output and input in the setup function:
@@ -93,109 +93,109 @@ Majority of this project will revolve in a simulation tool, then next steps will
         pinMode(output7, OUTPUT);
 
   4. Create a function for the cases of 7-segment displays:
-     '''
-        void setSevenSegmentOutput(int number){switch(number){
-         case 0:
-          digitalWrite(output1, 1); //a
-        	digitalWrite(output2, 1); //b
-        	digitalWrite(output3, 1); //c
-        	digitalWrite(output4, 1); //d
-          digitalWrite(output5, 1); //e
-          digitalWrite(output6, 1); //f
-          digitalWrite(output7, 0); //g
-         break;
-         case 1:
-          digitalWrite(output1, 0);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 0);
-          digitalWrite(output5, 0);
-          digitalWrite(output6, 0);
-          digitalWrite(output7, 0);
-         break;
-         case 2:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 0);
-        	digitalWrite(output4, 1);
-          digitalWrite(output5, 1);
-          digitalWrite(output6, 0);
-          digitalWrite(output7, 1);
-         break;
-         case 3:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 1);
-          digitalWrite(output5, 0);
-          digitalWrite(output6, 0);
-          digitalWrite(output7, 1);
-         break;
-         case 4:
-          digitalWrite(output1, 0);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 0);
-          digitalWrite(output5, 0);
-          digitalWrite(output6, 1);
-          digitalWrite(output7, 1);
-         break;
-         case 5:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 0);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 1);
-          digitalWrite(output5, 0);
-          digitalWrite(output6, 1);
-          digitalWrite(output7, 1);
-         break;
-         case 6:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 0);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 1);
-          digitalWrite(output5, 1);
-          digitalWrite(output6, 1);
-          digitalWrite(output7, 1);
-         break;
-         case 7:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 0);
-          digitalWrite(output5, 0);
-          digitalWrite(output6, 0);
-          digitalWrite(output7, 0);
-         break;
-         case 8:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 1);
-          digitalWrite(output5, 1);
-          digitalWrite(output6, 1);
-          digitalWrite(output7, 1);
-         break;
-         case 9:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 1);
-          digitalWrite(output5, 0);
-          digitalWrite(output6, 1);
-          digitalWrite(output7, 1);
-         break;
-         default:
-          digitalWrite(output1, 1);
-        	digitalWrite(output2, 1);
-        	digitalWrite(output3, 1);
-        	digitalWrite(output4, 1);
-          digitalWrite(output5, 1);
-          digitalWrite(output6, 1); 
-          digitalWrite(output7, 0); 
-          break;
-        }
-      }
+     
+              void setSevenSegmentOutput(int number){switch(number){
+               case 0:
+                digitalWrite(output1, 1); //a
+              	digitalWrite(output2, 1); //b
+              	digitalWrite(output3, 1); //c
+              	digitalWrite(output4, 1); //d
+                digitalWrite(output5, 1); //e
+                digitalWrite(output6, 1); //f
+                digitalWrite(output7, 0); //g
+               break;
+               case 1:
+                digitalWrite(output1, 0);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 0);
+                digitalWrite(output5, 0);
+                digitalWrite(output6, 0);
+                digitalWrite(output7, 0);
+               break;
+               case 2:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 0);
+              	digitalWrite(output4, 1);
+                digitalWrite(output5, 1);
+                digitalWrite(output6, 0);
+                digitalWrite(output7, 1);
+               break;
+               case 3:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 1);
+                digitalWrite(output5, 0);
+                digitalWrite(output6, 0);
+                digitalWrite(output7, 1);
+               break;
+               case 4:
+                digitalWrite(output1, 0);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 0);
+                digitalWrite(output5, 0);
+                digitalWrite(output6, 1);
+                digitalWrite(output7, 1);
+               break;
+               case 5:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 0);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 1);
+                digitalWrite(output5, 0);
+                digitalWrite(output6, 1);
+                digitalWrite(output7, 1);
+               break;
+               case 6:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 0);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 1);
+                digitalWrite(output5, 1);
+                digitalWrite(output6, 1);
+                digitalWrite(output7, 1);
+               break;
+               case 7:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 0);
+                digitalWrite(output5, 0);
+                digitalWrite(output6, 0);
+                digitalWrite(output7, 0);
+               break;
+               case 8:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 1);
+                digitalWrite(output5, 1);
+                digitalWrite(output6, 1);
+                digitalWrite(output7, 1);
+               break;
+               case 9:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 1);
+                digitalWrite(output5, 0);
+                digitalWrite(output6, 1);
+                digitalWrite(output7, 1);
+               break;
+               default:
+                digitalWrite(output1, 1);
+              	digitalWrite(output2, 1);
+              	digitalWrite(output3, 1);
+              	digitalWrite(output4, 1);
+                digitalWrite(output5, 1);
+                digitalWrite(output6, 1); 
+                digitalWrite(output7, 0); 
+                break;
+              }
+            }
      
 5. Create a function for the array of 4:
    
