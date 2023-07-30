@@ -27,27 +27,27 @@ Needed Components:
 
 <img width="161" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/6ae73b4e-85f8-44d2-8592-8de5a06ffec4">
 
-  3. 1x LCD Display I2C (Optional)
+  2. 1x LCD Display I2C (Optional)
     
 <img width="238" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/735b8570-5db6-4ec0-b861-3d2b1a8e99db">
 
-  4. 1x 7-Segment Display (Cathode)
+  3. 1x 7-Segment Display (Cathode)
 
 <img width="114" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/233e5d7c-19d9-4f3a-955f-a472d448d98d">
      
-  5. 2x 4-way Dip Switch (SPST)
+  4. 2x 4-way Dip Switch (SPST)
 
 <img width="188" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/16619786-66f7-4287-bca4-d50e6b7ba0ae">
      
-  7. 8x 10k ohm pull-down resistor
+  5. 8x 10k ohm pull-down resistor
 
 <img width="161" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/09f07945-a34a-412c-9f7c-da2f03b6a04c">
      
-  9. 7x 470 ohm resistor
+  6. 7x 470 ohm resistor
 
 <img width="157" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/0e6960fd-2566-4dee-b816-60f47dfa14a5">
       
-  11. solid wires (for actual system)
+  7. solid wires (for actual system)
 
 <img width="218" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/68f7bd01-9039-41da-9821-d3b445500375">
       
