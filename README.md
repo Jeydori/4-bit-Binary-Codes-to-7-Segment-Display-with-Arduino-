@@ -45,7 +45,7 @@ Majority of this project will revolve in a simulation tool, then next steps will
       <img width="194" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/c36ab1e9-bd58-482b-a211-bccc10fc6d42">
 
   2. Declare arrays and variables on pins:
-
+'''
        //7-segment display pins
         #define output7 8 //g
         #define output6 7 //f
@@ -93,7 +93,7 @@ Majority of this project will revolve in a simulation tool, then next steps will
         pinMode(output7, OUTPUT);
 
   4. Create a function for the cases of 7-segment displays:
-     
+     '''
         void setSevenSegmentOutput(int number){switch(number){
          case 0:
           digitalWrite(output1, 1); //a
