@@ -364,4 +364,4 @@ Majority of this project will revolve in a simulation tool, then next steps will
 7. End of the coding, test the system if it is working properly, Here is the full sketch of the system:
    https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/blob/main/4_bit_binary_codes_to_7_segment_display_with_arduino.ino
 
-After simulating the and checked that the system is working properly, you can now proceed on building it in actual. Note that if there is power outage, you can add an external voltage source and series the GND to the arduino:).
+After simulating the and checked that the system is working properly, you can now proceed on building it in actual. Upload the code in the arduino then build what we have simulated. Then you are done with this project. Note that if there is power outage, you can add an external voltage source and series the GND to the arduino:).
