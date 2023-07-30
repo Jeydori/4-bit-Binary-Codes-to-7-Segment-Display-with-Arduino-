@@ -24,18 +24,32 @@ This fusion of technology, and mathematics showcases the power of electronics an
 
 Needed Components:
   1. 1x Arduino Uno
-    <img width="161" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/6ae73b4e-85f8-44d2-8592-8de5a06ffec4">
-  2. 1x LCD Display I2C (Optional)
+
+<img width="161" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/6ae73b4e-85f8-44d2-8592-8de5a06ffec4">
+
+  3. 1x LCD Display I2C (Optional)
+    
     <img width="238" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/735b8570-5db6-4ec0-b861-3d2b1a8e99db">
-  3. 1x 7-Segment Display (Cathode)
+  4. 1x 7-Segment Display (Cathode)
      <img width="114" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/233e5d7c-19d9-4f3a-955f-a472d448d98d">
-  4. 2x 4-way Dip Switch (SPST)
+     
+  5. 2x 4-way Dip Switch (SPST)
+
      <img width="188" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/16619786-66f7-4287-bca4-d50e6b7ba0ae">
-  5. 8x 10k ohm pull-down resistor
+     
+  7. 8x 10k ohm pull-down resistor
+
      <img width="161" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/09f07945-a34a-412c-9f7c-da2f03b6a04c">
-  6. 7x 470 ohm resistor
-     <img width="157" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/0e6960fd-2566-4dee-b816-60f47dfa14a5">
-  7. solid wires (for actual system)
+     
+  9. 7x 470 ohm resistor
+
+      <img width="157" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/0e6960fd-2566-4dee-b816-60f47dfa14a5">
+      
+  11. solid wires (for actual system)
+
+      <img width="218" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/68f7bd01-9039-41da-9821-d3b445500375">
+      
+
 
 Majority of this project will revolve in a simulation tool, then next steps will be easier to execute in actual. In this example, we will be using Tinkercad. To simulate the 4-bit Binary Codes to 7-Segment Display using Arduino in Tinkercad, follow these steps:
   1. Search for the above components and then connect to their respective pins in the arduino. Red wires are 5V (Vcc) and Black wires are GND. (Note: all the GND should be in series.)
