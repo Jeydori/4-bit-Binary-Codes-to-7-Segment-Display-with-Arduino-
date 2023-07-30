@@ -35,7 +35,7 @@ Needed Components:
      <img width="161" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/09f07945-a34a-412c-9f7c-da2f03b6a04c">
   6. 7x 470 ohm resistor
      <img width="157" alt="image" src="https://github.com/Jeydori/4-bit-Binary-Codes-to-7-Segment-Display-with-Arduino-/assets/92672461/0e6960fd-2566-4dee-b816-60f47dfa14a5">
-
+  7. solid wires (for actual system)
 
 Majority of this project will revolve in a simulation tool, then next steps will be easier to execute in actual. In this example, we will be using Tinkercad. To simulate the 4-bit Binary Codes to 7-Segment Display using Arduino in Tinkercad, follow these steps:
   1. Search for the above components and then connect to their respective pins in the arduino. Red wires are 5V (Vcc) and Black wires are GND. (Note: all the GND should be in series.)
